@@ -1,1 +1,65 @@
+.dark-body {
+  background-color: black;
+  color: white;
+  a{
+    color: white;
+  }
+}
 
+header {
+  padding-top: 50px;
+  display:flex;
+  justify-content: space-around;
+  align-items: baseline;
+  a {
+    text-decoration: none;
+  }
+}
+
+h2 {
+
+  font-size: 4em;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+// WorksList
+.workslist {
+  display: flex;
+  justify-content: space-between;
+}
+.workslist-project {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.project {
+  width: 80%;
+  img {
+    width: 100%;
+    height: 70%;
+  }
+}
+
+// Contact
+.contact {
+  
+}
+
+form {
+
+}
+
+.contact input {
+  margin: 10px 0;
+}
+
+.contact textarea {
+  height: 20em;
+  resize: none;
+}
